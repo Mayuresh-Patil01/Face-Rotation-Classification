@@ -209,7 +209,7 @@ To launch the web interface for image prediction:
 
 - **Project Evaluation Documents:**  
   - **Project Report (PDF):** Detailed project evaluation and methodology can be found in the [Project_Report.pdf](docs/Project_Report.pdf) file.
-  - **Project Presentation (PPT):** A presentation summarizing the project is available as [Project_Presentation.ppt](docs/Project_Presentation.ppt).
+  - **Project Presentation (PPT):** A presentation summarizing the project is available as [Project_Presentation.ppt](docs/Project_Presentation.pptx).
 
 Feel free to refer to these documents for an in-depth understanding of the project and its evaluation.
 
