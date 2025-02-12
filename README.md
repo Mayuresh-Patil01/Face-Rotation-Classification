@@ -219,9 +219,3 @@ To launch the web interface for image prediction:
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
-
-Happy coding! 🎉
-```
-
-If you still experience issues with line breaks, please verify that your editor is set to render Markdown properly. Enjoy your project!
