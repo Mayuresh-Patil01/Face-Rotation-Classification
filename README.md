@@ -138,9 +138,9 @@ To generate augmented images and organize them into class-specific folders:
    python main.py --config config.yaml
    ```
 
-### Training and Testing 🔥
+### Training 🔥
 
-To train the model and evaluate it on the test set:
+To train the model:
 
 1. **Set `process_type` to `2`** in `config.yaml`.
 2. **Run the main script:**
@@ -150,6 +150,19 @@ To train the model and evaluate it on the test set:
    ```
 
    Training will save the best model (based on validation accuracy) in a designated folder under `saved_models/`.
+
+### Testing 🔥
+
+To test the model:
+
+1. **Set `process_type` to `3`** in `config.yaml`.
+2. **Run the main script:**
+
+   ```bash
+   python main.py --config config.yaml
+   ```
+
+   Testing will evaluate the best model (based on validation accuracy) in a designated folder under `saved_models/`.
 
 ### Inference 🔍
 
