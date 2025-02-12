@@ -1,6 +1,4 @@
-Below is an enhanced, emoji-rich version of the README file. You can copy and paste the entire text into your `README.md` file.
-
----
+Below is a copy‑and‑paste ready version of the README in Markdown format. Simply copy all the text below (including the triple backticks) into your `README.md` file:
 
 ```markdown
 # Face Rotation Classifier 🚀
@@ -206,4 +204,15 @@ To launch the web interface for image prediction:
 - **CUDA Issues:**  
   Ensure you have the correct version of PyTorch and that CUDA is available if you're using GPU acceleration.
 
+---
 
+## License 📄
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Happy coding! 🎉
+```
+
+This version is formatted with line breaks, headings, bullet points, and emojis to make it both visually appealing and easy to follow. Enjoy!
