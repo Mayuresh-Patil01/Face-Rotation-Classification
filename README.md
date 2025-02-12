@@ -194,11 +194,14 @@ To run face detection and crop faces from images:
 
 To visualize a grid of augmented images (default is a 5x5 grid):
 
-```bash
-python -c "from visualize import visualize_augmentations; visualize_augmentations(__import__('yaml').safe_load(open('config.yaml')))"
-```
+1. **Set `process_type` to `4`** in `config.yaml`.
+2. **Run the main script:**
 
-Or run a dedicated script if provided.
+   ```bash
+   python main.py --config config.yaml
+   ```
+
+   Will save a image of 5 * 5 grid of transformed images with name augmentations.jpg.
 
 ### Streamlit Web App 🌐
 
