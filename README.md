@@ -1,4 +1,4 @@
-Below is a revised version of the README in a single code block. Make sure you copy everything (including the triple backticks) and paste it into your `README.md` file. This version uses blank lines between sections so that Markdown renders each section on its own line.
+Below is an updated version of the README with an added section for dataset links and project evaluation documents. Simply copy and paste the text (including the triple backticks) into your `README.md` file:
 
 ```markdown
 # Face Rotation Classifier 🚀
@@ -20,6 +20,7 @@ Welcome to the **Face Rotation Classifier** project! This repository implements 
   - [Face Detection 🤖](#face-detection-)
   - [Visualization 🎨](#visualization-)
   - [Streamlit Web App 🌐](#streamlit-web-app-)
+- [Dataset & Project Documentation 📑](#dataset--project-documentation-)
 - [Troubleshooting ⚠️](#troubleshooting-)
 - [License 📄](#license-)
 
@@ -61,8 +62,6 @@ Welcome to the **Face Rotation Classifier** project! This repository implements 
 ├── face_detect.py             # Face detection and cropping using MTCNN
 ├── streamlit_app.py           # Streamlit web interface for model inference
 └── main.py                    # Main entry point for preprocessing, training/testing, or inference
-
-
 
 
 ## Installation and Setup 💻
@@ -202,6 +201,20 @@ To launch the web interface for image prediction:
 
 ---
 
+## Dataset & Project Documentation 📑
+
+- **Dataset Links:**  
+  - The Training dataset used for this project can be downloaded from: [CelebFaces Attributes (CelebA) Dataset]([https://example.com/dataset1](https://www.kaggle.com/datasets/jessicali9530/celeba-dataset))  
+  - Alternatively, access testing version at: [Human Faces]([https://example.com/dataset2](https://www.kaggle.com/datasets/ashwingupta3012/human-faces))  
+
+- **Project Evaluation Documents:**  
+  - **Project Report (PDF):** Detailed project evaluation and methodology can be found in the [Project_Report.pdf](docs/Project_Report.pdf) file.
+  - **Project Presentation (PPT):** A presentation summarizing the project is available as [Project_Presentation.ppt](docs/Project_Presentation.ppt).
+
+Feel free to refer to these documents for an in-depth understanding of the project and its evaluation.
+
+---
+
 ## Troubleshooting ⚠️
 
 - **Palette Image Warnings / Conversion Issues:**  
@@ -212,6 +225,3 @@ To launch the web interface for image prediction:
 
 - **CUDA Issues:**  
   Ensure you have the correct version of PyTorch and that CUDA is available if you're using GPU acceleration.
-
-
-
