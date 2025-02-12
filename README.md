@@ -204,8 +204,8 @@ To launch the web interface for image prediction:
 ## Dataset & Project Documentation 📑
 
 - **Dataset Links:**  
-  - The Training dataset used for this project can be downloaded from: [CelebFaces Attributes (CelebA) Dataset]((https://www.kaggle.com/datasets/jessicali9530/celeba-dataset))  
-  - Alternatively, access testing version at: [Human Faces]((https://www.kaggle.com/datasets/ashwingupta3012/human-faces))  
+  - The Training dataset used for this project can be downloaded from: [CelebFaces Attributes (CelebA) Dataset](https://www.kaggle.com/datasets/jessicali9530/celeba-dataset)  
+  - Alternatively, access testing version at: [Human Faces](https://www.kaggle.com/datasets/ashwingupta3012/human-faces)
 
 - **Project Evaluation Documents:**  
   - **Project Report (PDF):** Detailed project evaluation and methodology can be found in the [Project_Report.pdf](docs/Project_Report.pdf) file.
