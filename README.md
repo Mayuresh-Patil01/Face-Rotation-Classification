@@ -1,4 +1,4 @@
-Below is a copy‑and‑paste ready version of the README in Markdown format. Simply copy all the text below (including the triple backticks) into your `README.md` file:
+Below is a revised version of the README in a single code block. Make sure you copy everything (including the triple backticks) and paste it into your `README.md` file. This version uses blank lines between sections so that Markdown renders each section on its own line.
 
 ```markdown
 # Face Rotation Classifier 🚀
@@ -29,14 +29,19 @@ Welcome to the **Face Rotation Classifier** project! This repository implements 
 
 - **Flexible Data Augmentation:**  
   Choose between on-the-fly augmentation and preprocessed augmentation.
+
 - **Multiple Model Options:**  
   Use models like ResNet18, ResNet34, ResNet50, ResNet101, VGG16, MobileNetV2, Inception, ViT, AlexNet, or a custom basic model.
+
 - **Centralized Configuration:**  
   All hyperparameters and file paths are managed in `config.yaml`.
+
 - **Face Detection:**  
   Utilizes MTCNN for detecting and cropping faces.
+
 - **Web Interface:**  
   A simple Streamlit app to upload an image and view its predicted rotation.
+
 - **Visualization:**  
   Easily visualize augmented images in a grid to inspect augmentation quality.
 
@@ -104,12 +109,16 @@ All settings are managed via `config.yaml`. This file includes:
 
 - **Augmentation Parameters:**  
   Blur radius, color jitter, crop scale, noise intensity, etc.
+
 - **Model Settings:**  
   Choose the model (e.g., `"resnet18"`), number of classes, batch size, learning rate, epochs, and image size.
+
 - **System Settings:**  
   Number of workers, CUDA usage, and process type (preprocessing, training+testing, or testing only).
+
 - **Data Directories:**  
   Paths for raw data, preprocessed data, training, and testing.
+
 - **Face Detection Settings:**  
   Input and output directories for face detection, plus a maximum image limit.
 
@@ -215,4 +224,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 Happy coding! 🎉
 ```
 
-This version is formatted with line breaks, headings, bullet points, and emojis to make it both visually appealing and easy to follow. Enjoy!
+If you still experience issues with line breaks, please verify that your editor is set to render Markdown properly. Enjoy your project!
