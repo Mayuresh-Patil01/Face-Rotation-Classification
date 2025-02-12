@@ -213,9 +213,5 @@ To launch the web interface for image prediction:
 - **CUDA Issues:**  
   Ensure you have the correct version of PyTorch and that CUDA is available if you're using GPU acceleration.
 
----
 
-## License 📄
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
