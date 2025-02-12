@@ -31,7 +31,7 @@ max_test_images: 7000
 # System
 num_workers: 0
 use_cuda: true           # cuda control on system
-process_type: 2          # 1. preprocess 2. train 3. Only test 4. face detect 5. visualize
+process_type: 2          # 1.preprocess  2.train  3.test  4.face_detect  5.visualize
 
 # Augmentation Mode: "preprocessed" or "on_the_fly"
 augmentation_mode: "on_the_fly"  

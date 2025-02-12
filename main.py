@@ -19,9 +19,7 @@ if __name__ == '__main__':
     
     elif config['process_type'] == 2:
         from train import train_model
-        from test import test_model
         train_model(config)
-        test_model(config)
     
     elif config['process_type'] == 3:
         from test import test_model
@@ -30,3 +28,7 @@ if __name__ == '__main__':
     elif config['process_type'] == 4:
         from face_detect import detect_faces
         detect_faces(config)
+
+    elif config['process_type'] == 5:
+        from visualize import visualize_augmentations
+        visualize_augmentations(config)
