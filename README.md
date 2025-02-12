@@ -61,9 +61,9 @@ Welcome to the **Face Rotation Classifier** project! This repository implements 
 ├── face_detect.py             # Face detection and cropping using MTCNN
 ├── streamlit_app.py           # Streamlit web interface for model inference
 └── main.py                    # Main entry point for preprocessing, training/testing, or inference
-```
 
----
+
+
 
 ## Installation and Setup 💻
 
