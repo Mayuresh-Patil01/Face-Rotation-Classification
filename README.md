@@ -52,8 +52,11 @@ Welcome to the **Face Rotation Classifier** project! This repository implements 
 
 ```
 ├── config.yaml                # Central configuration file
+
 ├── data_loader.py             # Dataset and preprocessing functions
+
 ├── model.py                   # Model definitions and utility function to load models
+
 ├── preprocess.py              # Preprocessing script for image augmentation
 ├── train.py                   # Training loop and validation logic
 ├── test.py                    # Evaluation script for testing the model
