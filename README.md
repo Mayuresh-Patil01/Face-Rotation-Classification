@@ -51,20 +51,27 @@ Welcome to the **Face Rotation Classifier** project! This repository implements 
 ## Project Structure 📂
 
 ```
-├── config.yaml                # Central configuration file
+├── config.yaml                  # Central configuration file
 
-├── data_loader.py             # Dataset and preprocessing functions
+├── data_loader.py               # Dataset and preprocessing functions
 
-├── model.py                   # Model definitions and utility function to load models
+├── model.py                     # Model definitions and utility function to load models
 
-├── preprocess.py              # Preprocessing script for image augmentation
-├── train.py                   # Training loop and validation logic
-├── test.py                    # Evaluation script for testing the model
-├── inference.py               # Inference script for single image prediction
-├── visualize.py               # Visualization script for augmented images
-├── face_detect.py             # Face detection and cropping using MTCNN
-├── streamlit_app.py           # Streamlit web interface for model inference
-└── main.py                    # Main entry point for preprocessing, training/testing, or inference
+├── preprocess.py                # Preprocessing script for image augmentation
+
+├── train.py                     # Training loop and validation logic
+
+├── test.py                      # Evaluation script for testing the model
+
+├── inference.py                 # Inference script for single image prediction
+
+├── visualize.py                 # Visualization script for augmented images
+  
+├── face_detect.py               # Face detection and cropping using MTCNN
+
+├── streamlit_app.py             # Streamlit web interface for model inference
+
+└── main.py                      # Main entry point for preprocessing, training/testing, or inference
 
 
 ## Installation and Setup 💻
