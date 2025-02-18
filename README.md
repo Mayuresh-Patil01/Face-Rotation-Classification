@@ -1,4 +1,3 @@
-Below is an updated version of the README with an added section for dataset links and project evaluation documents. Simply copy and paste the text (including the triple backticks) into your `README.md` file:
 
 ```markdown
 # Face Rotation Classifier 🚀
